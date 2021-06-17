@@ -16,6 +16,11 @@
 # Import code from another repository
     git clone <url del repositorio>     //Clonamos un repositorio de GitHub en el PC local
 
+# Delete files
+    git rm <file name>          //Eliminamos el archivo del directorio local
+    git status                  //Vemos los archivos modificados y eliminados
+    git restart HEAD <file>     //Recuperamos el archivo eliminado
 # OTROS COMANDOS
-    git config -l   //muestra la configuración de git
-    git checkout    //muestra los cambios respecto al último commit
+    git config -l   //Muestra la configuración de git
+    git status      //Muestras las modificaciones respecto al último commit y la rama donde estamos
+    git checkout    //Muestra los cambios respecto al último commit
