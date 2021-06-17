@@ -22,6 +22,10 @@
     git status                  //Vemos los archivos modificados y eliminados
     git restart HEAD <file>     //Recuperamos el archivo eliminado
 
+# Uso de ramas
+    git log                                                 //Vemos los commits con sus ids y la fecha
+    git checkout <6primeros dígitos de la id del commit>    //Volvemos a un commit anterior
+    
 # OTROS COMANDOS
     git config -l   //Muestra la configuración de git
     git status      //Muestras las modificaciones respecto al último commit y la rama donde estamos
