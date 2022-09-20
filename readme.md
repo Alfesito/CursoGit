@@ -4,7 +4,7 @@ Documentación: https://bluuweb.github.io/tutorial-github/guia/fundamentos.html
     git init                                        //Arrancamos git
     git add .                                       //Todos los archivos dentro del fichero
     git commit -m "first commit"                    //Hacemos un commit
-    git branch -M main                              //Cewamos una rama
+    git branch -M main                              //Creamos una rama
     git remote add origin <url del repositorio>     //Administra el conjunto de repositorios de la rama
     git push -u origin main                         //Subimos los archivos seleccionados a GitHub
 
@@ -23,7 +23,7 @@ Documentación: https://bluuweb.github.io/tutorial-github/guia/fundamentos.html
 
 # Uso de ramas
     git log                                                 //Vemos los commits con sus ids y la fecha
-    git log --oneline                                        //Vemos la rama actual
+    git log --oneline                                       //Vemos la rama actual
     git checkout <rama>                                     //Nos movemos a la rama
     git checkout <6primeros dígitos id del commit>          //Volvemos a un commit anterior
     git merge <rama que quieres juntar al main>             //Unimos una rama al main o master
